@@ -35,7 +35,7 @@ export function useTodos() {
     error.value = null;
     try {
       const newTodo = await api.createTodo(todoData);
-      await fetchTodos(1); // Refresh first page after adding
+      todos.value = [newTodo, ...todos.value]; // Prepend the new todo to the list
     } catch (e) {
       error.value = "Failed to add todo";
       console.error(e);
