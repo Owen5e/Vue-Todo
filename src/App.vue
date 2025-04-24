@@ -1,7 +1,6 @@
-<!-- src/App.vue -->
 <template>
   <div
-    class="min-h-screen bg-gray-100 py-6 flex flex-col justify-center sm:py-12"
+    class="min-h-screen bg-gradient-to-r from-[#00B4DB] to-[#0083B0] py-6 flex flex-col justify-center sm:py-12"
   >
     <div class="relative py-3 sm:max-w-xl sm:mx-auto">
       <div
