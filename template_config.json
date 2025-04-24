@@ -1,0 +1,14 @@
+{
+  "description": "This is a Vue framework template. The template includes the basic structure of a VUE project, including an index.html file and a src directory with an App.vue file.",
+  "required_fields": [
+  ],
+  "required_files": [
+    "index.html",
+    "src/main.js",
+    "src/App.vue"
+  ],
+  "lang": "JavaScript",
+  "framework": "Vue 3",
+  "style": "vue_template",
+  "scene": "default"
+}
