@@ -87,6 +87,10 @@ export function useTodos() {
     }
   };
 
+  const saveTodosToLocalStorage = () => {
+    localStorage.setItem("todos", JSON.stringify(todos.value));
+  };
+
   return {
     todos,
     error,
