@@ -1,6 +1,6 @@
 <template>
   <div
-    class="flex items-center justify-between border-t border-gray-200 bg-white px-4 py-3 sm:px-6"
+    class="flex items-center justify-between border-t border-gray-200 bg-white px-4 py-3 sm:px-6 rounded-lg mt-6"
   >
     <div class="flex flex-1 justify-between sm:hidden">
       <button
@@ -23,7 +23,7 @@
     <div class="hidden sm:flex sm:flex-1 sm:items-center sm:justify-between">
       <div>
         <p class="text-sm text-gray-700">
-          Showing page <span class="font-medium">{{ currentPage }}</span> of
+          Page <span class="font-medium">{{ currentPage }}</span> of
           <span class="font-medium">{{ totalPages }}</span>
         </p>
       </div>
